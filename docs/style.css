@@ -1,0 +1,110 @@
+body{
+    font-family: Ubuntu;
+}
+
+.bg{
+    width: 100%;
+    background-image: url("background.jpg.jpg");
+    background-position: center;
+    text-align: center;
+    overflow: auto;
+}
+
+.nav{
+    justify-content: center;
+}
+
+.bg hr{
+    margin-left: 550px;
+}
+
+hr{
+    border: 1px darkgray dotted;
+    margin: 0;
+}
+
+.nora{
+    float: left;
+    width: 500px;
+    height: auto;
+    border-radius: 1%;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.bg h1:first-of-type{
+    padding-top: 100px;
+}
+
+.bg h5{
+    padding-top: 100px;
+}
+
+.strelka{
+    width: 80px;
+    height: auto;
+    margin-top: 55px;
+}
+
+.strelka:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.jumbotron, h1{
+    margin: 0;
+}
+
+.jumbotron h1{
+    color: lightgray;
+    padding: 0;
+}
+
+.bg h1{
+    color: #343434;
+}
+
+.jumbotron{
+    background-color: #343434;
+    text-align: center;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.item img{
+    margin:auto;
+}
+
+footer{
+    background-color: #161616;
+    width: 100%;
+    color: lightgray;
+    text-align: center;
+    overflow: auto;
+}
+
+footer h1{
+    font-size: 16px;
+    line-height: 60px;
+}
+
+#logo{
+    background-color: #595959;
+}
+
+#poster{
+    background-color: #151515;
+}
+
+#mobile{
+    background-color: #212121;
+}
+
+#modelling{
+    background-color: #3a3a3a;
+}
